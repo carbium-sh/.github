@@ -63,7 +63,19 @@ read its API key over HTTPS, with no browser and no inbox. Plans and prices are 
 
 ## Our code
 
-Our SDKs, CLI and agent tools are published in this organisation as they are released.
+Our SDKs and tools, each with its source in this organisation:
+
+| | |
+|---|---|
+| TypeScript | [@carbium/sdk](https://www.npmjs.com/package/@carbium/sdk) on npm: `npm install @carbium/sdk` |
+| Python | [carbium](https://pypi.org/project/carbium/) on PyPI: `pip install carbium` |
+| Rust | [carbium](https://crates.io/crates/carbium) on crates.io: `cargo add carbium` |
+| Go | [carbium-go](https://pkg.go.dev/github.com/carbium-sh/carbium-go) on pkg.go.dev: `go get github.com/carbium-sh/carbium-go` |
+| Command line | [carbium](https://www.npmjs.com/package/carbium) on npm: `npm install -g carbium`. Standalone binaries come from the [install script](https://carbium.sh/install.sh), [Homebrew](https://github.com/carbium-sh/homebrew-tap) and [Scoop](https://github.com/carbium-sh/scoop-bucket), and [setup-carbium](https://github.com/carbium-sh/setup-carbium) installs it in GitHub Actions. |
+| MCP server | [@carbium/mcp](https://www.npmjs.com/package/@carbium/mcp) on npm: `npx -y @carbium/mcp`. It also ships as the container image [ghcr.io/carbium-sh/carbium-mcp](https://github.com/carbium-sh/carbium-js/pkgs/container/carbium-mcp). |
+| Agent plugin | [skills](https://github.com/carbium-sh/skills): the carbium plugin for Claude Code, Cursor and Codex. |
+| Spec files | [spec](https://github.com/carbium-sh/spec): the OpenRPC document, the account API's OpenAPI file and a Postman collection. |
+| Cookbook | [cookbook](https://github.com/carbium-sh/cookbook): runnable examples in TypeScript, Python, Rust and Go. |
 
 ## Contact
 
